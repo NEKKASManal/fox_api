@@ -4,6 +4,9 @@ namespace App\Fox;
 
 Class Foxclass{
 
+
+  const db_url = "c:/photel/parametrage.dbc";
+
     // db_url=self::db_url;
     public static  function  fquery($query,array $fields){
 
